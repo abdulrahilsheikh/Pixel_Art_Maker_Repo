@@ -1,0 +1,83 @@
+.Editor_Container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+    background: #01161e;
+}
+
+.Editor_Container_Content {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 400px;
+    box-sizing: border-box;
+
+    border-radius: 50px;
+    background: #01161e;
+    border: 1px solid #ffd500;
+
+}
+
+.Options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.panelInput {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 1rem 0.5rem 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    background: #e0e0e0;
+
+    border: 1px solid black;
+
+}
+
+.Option span {
+    font-size: 1.5rem;
+}
+
+.Editor_Container_Button {
+    height: 3rem;
+    width: 11rem;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 1rem 1rem 0.5rem 1rem;
+    text-align: center;
+
+    border-radius: 5px;
+    background: #e0e0e0;
+
+    border: 1px solid black;
+
+}
+
+.Editor_Container_Button:hover {
+    background: #ffd60a;
+}
+
+.Color_pallet {
+    margin-left: 20px;
+}
